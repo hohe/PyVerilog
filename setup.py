@@ -9,4 +9,10 @@ setup(name='PyVerilog',
       url='https://github.com/yellekelyk/PyVerilog',
       author='yellekelyk',
       packages=['PyVerilog'],
+      install_requires=[
+          'PyYAML',
+          'ordereddict',
+          'pyparsing',
+          'wsgiref',
+      ],
       zip_safe=False)
